@@ -1,24 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
-import svgPaths from '../../imports/svg-2769hc4cgz';
-
-function Figma() {
-  return (
-    <div className="h-[35px] relative shrink-0 w-[40px]" data-name="Figma">
-      <div className="absolute inset-[-5%_0]">
-        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 38.5">
-          <g id="Figma">
-            <path d={svgPaths.p172d740} id="Icon" stroke="var(--stroke-0, #1E1E1E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" />
-          </g>
-        </svg>
-      </div>
-    </div>
-  );
-}
 
 function Block() {
   return (
-    <Link to="/" className="content-stretch flex gap-[24px] items-center relative shrink-0 cursor-pointer" data-name="Block">
-      <Figma />
+    <Link to="/" className="font-['Inter:Semi_Bold',sans-serif] font-semibold text-[#1e1e1e] text-[20px] no-underline hover:opacity-80 transition-opacity" data-name="Brand">
+      Heal&Save
     </Link>
   );
 }
