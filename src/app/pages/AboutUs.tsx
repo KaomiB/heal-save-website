@@ -1,7 +1,6 @@
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
-// Placeholder hero image (replace with your own asset; original draft used Figma export)
-const imgHeroBasic = "https://placehold.co/1920x600/ddfdfe/1e1e1e?text=About+Us";
+import imgHeroBasic from '../../assets/af02000a7f8b6d610fec4c836770abb05f9b1e7d.png';
 
 function Text() {
   return (

@@ -1,11 +1,10 @@
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
-// Placeholder images (replace with your own assets; original draft used Figma exports)
-const imgImage = "https://placehold.co/1200x600/e3e3e3/757575?text=Hero";
-const imgImage1 = "https://placehold.co/800x500/ddfdfe/1e1e1e?text=Section";
-const imgImage2 = "https://placehold.co/160x160/d9d9d9/757575?text=About";
-const imgImage3 = "https://placehold.co/160x160/d9d9d9/757575?text=Savvy";
-const imgImage4 = "https://placehold.co/160x160/d9d9d9/757575?text=Image";
+import imgImage from '../../assets/4c83caaa278168328cdba516fcfdc4855eb013b4.png';
+import imgImage1 from '../../assets/a2ebc7b0c57754afefb445b76fc3bd260d0cadb6.png';
+import imgImage2 from '../../assets/cc116d210517b4863061509043cebfa51389a5de.png';
+import imgImage3 from '../../assets/c56d8a349180873c098f29864ced7d458740ae62.png';
+import imgImage4 from '../../assets/a003f28c1a19d48915960f045dfec66ca137a49a.png';
 
 function Image() {
   return (
