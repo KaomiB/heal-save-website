@@ -21,10 +21,11 @@ export default function Savvy() {
         <div className="flex-1 min-h-[70vh] w-full max-w-[1400px] mx-auto px-4 sm:px-8 py-6">
           <div className="bg-white rounded-[8px] shadow-lg overflow-hidden h-full min-h-[600px]">
             <iframe
-              src="https://chatbot-37tx6ldxlh6gzz4od3t5oa.streamlit.app/"
-              className="w-full h-full min-h-[600px] border-0"
+              src="https://chatbot-37tx6ldxlh6gzz4od3t5oa.streamlit.app/?embed=true&embed_options=show_toolbar&embed_options=light_theme&embed_options=show_colored_line&embed_options=show_padding&embed_options=show_footer&embed_options=disable_scrolling"
+              className="w-full h-full min-h-[600px] border-0 overflow-hidden"
               title="Savvy HSA Chatbot"
               allow="camera; microphone"
+              scrolling="no"
             />
           </div>
         </div>
