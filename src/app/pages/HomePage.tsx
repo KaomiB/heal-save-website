@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import imgImage from '../../assets/4c83caaa278168328cdba516fcfdc4855eb013b4.png';
@@ -46,12 +47,12 @@ function Body() {
     <div className="content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start min-h-px min-w-[160px] relative" data-name="Body">
       <Text />
       <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-name="Button Group">
-        <div className="bg-[#e3e3e3] relative rounded-[8px] shrink-0" data-name="Button">
+        <Link to="/about" className="bg-[#e3e3e3] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] transition-colors" data-name="Button">
           <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip p-[12px] relative rounded-[inherit]">
-            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] text-[16px]">Button</p>
+            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] text-[16px]">About Us</p>
           </div>
           <div aria-hidden="true" className="absolute border border-[#767676] border-solid inset-0 pointer-events-none rounded-[8px]" />
-        </div>
+        </Link>
       </div>
     </div>
   );
@@ -79,12 +80,12 @@ function Body1() {
     <div className="content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start min-h-px min-w-[160px] relative" data-name="Body">
       <Text1 />
       <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-name="Button Group">
-        <a className="bg-[#e3e3e3] cursor-pointer relative rounded-[8px] shrink-0" data-name="Button" href="https://chatbot-37tx6ldxlh6gzz4od3t5oa.streamlit.app/">
+        <Link to="/savvy" className="bg-[#e3e3e3] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] transition-colors" data-name="Button">
           <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip p-[12px] relative rounded-[inherit]">
-            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] text-[16px] text-left">Button</p>
+            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] text-[16px] text-left">Savvy Chatbot</p>
           </div>
           <div aria-hidden="true" className="absolute border border-[#767676] border-solid inset-0 pointer-events-none rounded-[8px]" />
-        </a>
+        </Link>
       </div>
     </div>
   );
@@ -112,12 +113,12 @@ function Body2() {
     <div className="content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start min-h-px min-w-[160px] relative" data-name="Body">
       <Text2 />
       <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-name="Button Group">
-        <div className="bg-[#e3e3e3] relative rounded-[8px] shrink-0" data-name="Button">
+        <Link to="/resources" className="bg-[#e3e3e3] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] transition-colors" data-name="Button">
           <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip p-[12px] relative rounded-[inherit]">
-            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] text-[16px]">Button</p>
+            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] text-[16px]">Resources</p>
           </div>
           <div aria-hidden="true" className="absolute border border-[#767676] border-solid inset-0 pointer-events-none rounded-[8px]" />
-        </div>
+        </Link>
       </div>
     </div>
   );
