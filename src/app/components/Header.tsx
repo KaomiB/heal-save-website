@@ -57,24 +57,6 @@ export function Header() {
             </div>
           </Link>
         </div>
-        <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[178px]" data-name="Header Auth">
-          <button className="bg-[#e3e3e3] flex-[1_0_0] min-h-px min-w-px relative rounded-[8px] cursor-pointer hover:bg-[#d9d9d9] transition-colors" data-name="Button">
-            <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
-              <div className="content-stretch flex gap-[8px] items-center justify-center p-[8px] relative w-full">
-                <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] text-[16px]">Sign in</p>
-              </div>
-            </div>
-            <div aria-hidden="true" className="absolute border border-[#767676] border-solid inset-0 pointer-events-none rounded-[8px]" />
-          </button>
-          <button className="bg-[#2c2c2c] flex-[1_0_0] min-h-px min-w-px relative rounded-[8px] cursor-pointer hover:bg-[#1e1e1e] transition-colors" data-name="Button">
-            <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
-              <div className="content-stretch flex gap-[8px] items-center justify-center p-[8px] relative w-full">
-                <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#f5f5f5] text-[16px]">Register</p>
-              </div>
-            </div>
-            <div aria-hidden="true" className="absolute border border-[#2c2c2c] border-solid inset-0 pointer-events-none rounded-[8px]" />
-          </button>
-        </div>
       </div>
       <div aria-hidden="true" className="absolute bottom-0 left-0 right-0 border-b border-[#d9d9d9] border-solid pointer-events-none" />
     </div>
