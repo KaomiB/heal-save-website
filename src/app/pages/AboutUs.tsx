@@ -27,7 +27,7 @@ function Text1() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start not-italic relative shrink-0 w-full whitespace-pre-wrap" data-name="Text">
       <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[24px] tracking-[-0.48px] w-full">Who Are We?</p>
-      <p className="font-['Inter:Regular',sans-serif] font-normal leading-[1.4] relative shrink-0 text-[#757575] text-[16px] w-full">Savvy is our HSA and health financial literacy Chat-bot, trained on survey based scenarios regarding health savings anxiety, catered to answer all your questions and ease your mind.</p>
+      <p className="font-['Inter:Regular',sans-serif] font-normal leading-[1.4] relative shrink-0 text-[#757575] text-[16px] w-full">We are a team of four college students passionate about making healthcare finances easier to understand. As students ourselves, we realized how confusing Health Savings Accounts (HSAs) can be. That's why we built Savvy to help people like us learn, navigate, and make smarter decisions about their HSAs.</p>
     </div>
   );
 }

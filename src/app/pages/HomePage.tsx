@@ -157,13 +157,25 @@ export default function HomePage() {
     <div className="bg-white min-h-screen flex flex-col" data-name="Home Page">
       <Header />
       
-      {/* Hero Section */}
+      {/* Hero Section — updated from Figma draft (Informatics-172) */}
       <div className="bg-[#ddfdfe] content-stretch flex flex-col items-center px-[64px] py-[160px] w-full" data-name="Hero Basic">
         <div className="content-stretch flex flex-col gap-[8px] items-center not-italic relative shrink-0 text-center" data-name="Text Content Title">
           <p className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[72px] tracking-[-2.16px] w-full whitespace-pre-wrap">{`Heal&Save`}</p>
           <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#757575] text-[32px] w-full">
             <p className="leading-[1.2] whitespace-pre-wrap">We're here to help you save with peace of mind.</p>
           </div>
+        </div>
+        <div className="flex flex-col sm:flex-row gap-[16px] items-center justify-center mt-[24px] w-full max-w-[614px]" data-name="Hero CTA">
+          <Link
+            to="/savvy"
+            className="bg-[#e5c1e0] text-white font-medium text-[20px] leading-[1.2] px-[39px] py-[20px] rounded-[100px] no-underline hover:bg-[#ddb3d8] transition-colors shrink-0"
+            data-name="Savvy CTA Button"
+          >
+            Savvy
+          </Link>
+          <p className="font-['Inter:Regular',sans-serif] font-normal text-[#757575] text-[32px] leading-[1.2] text-center">
+            Your one place for every HSA question.
+          </p>
         </div>
       </div>
 
