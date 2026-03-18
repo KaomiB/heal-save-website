@@ -65,10 +65,10 @@ function LinkedIn() {
 
 export function Footer() {
   return (
-    <div className="bg-[#ddfdfe] dark:bg-[#0a1520] dark:border-t dark:border-teal-950/25 w-full relative" data-name="Footer">
+    <div className="bg-[#ddfdfe] dark:bg-[#0c0a0c] dark:border-t dark:border-white/[0.06] w-full relative" data-name="Footer">
       <div className="content-center flex flex-wrap gap-[16px] items-center justify-center overflow-clip py-[32px] px-[32px] relative rounded-[inherit] w-full">
         <div
-          className="content-stretch flex gap-[16px] items-center relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0]"
+          className="content-stretch flex gap-[16px] items-center relative shrink-0 text-[#1e1e1e] dark:text-[#a1a1aa]"
           data-name="Social Links"
         >
           <XLogo />
@@ -79,7 +79,7 @@ export function Footer() {
       </div>
       <div
         aria-hidden="true"
-        className="absolute top-0 left-0 right-0 border-t border-[#d9d9d9] dark:border-[#4a5568] border-solid pointer-events-none"
+        className="absolute border-[#d9d9d9] border-b border-l-0 border-r-0 border-solid border-t-0 inset-0 pointer-events-none dark:border-white/[0.04]"
       />
     </div>
   );

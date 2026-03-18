@@ -31,6 +31,16 @@ npm run preview
 3. Pushes to `main` build and deploy the site to `https://<user>.github.io/<repo>/`.
 4. Commit **`package-lock.json`** so CI can run `npm ci`.
 
+## Dark-mode images (committed)
+
+Hero, panel, and card photos use **`src/assets/*-dark.png`** variants (dimmed + color-graded in ImageMagick), swapped in the UI when the theme is dark. After replacing a source `.png`, regenerate:
+
+```bash
+bash scripts/build-dark-assets.sh
+```
+
+Requires **ImageMagick** (`magick`). Light mode still uses the original files.
+
 ## Local-only screenshots
 
 Version history captures and dark-mode screenshots are written under **`screenshots/`**, which is **gitignored**. Examples:
