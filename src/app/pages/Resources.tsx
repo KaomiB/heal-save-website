@@ -34,21 +34,30 @@ const SURVEY_LINKS = [
 
 export default function Resources() {
   return (
-    <div className="bg-white min-h-screen flex flex-col" data-name="Resources">
+    <div className="bg-white dark:bg-[#0f0f1a] min-h-screen flex flex-col" data-name="Resources">
       <Header />
 
       {/* Hero — from Figma draft (node 439:260) */}
-      <div className="bg-[#ddfdfe] content-stretch flex flex-col items-center px-[64px] py-[160px] w-full" data-name="Hero Basic">
+      <div
+        className="bg-[#ddfdfe] dark:bg-[#1a2a2a] content-stretch flex flex-col items-center px-[64px] py-[160px] w-full"
+        data-name="Hero Basic"
+      >
         <div className="content-stretch flex flex-col gap-[8px] items-center not-italic relative shrink-0 text-center" data-name="Text Content Title">
-          <p className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] relative shrink-0 text-[#1e1e1e] text-[72px] tracking-[-2.16px] w-full whitespace-pre-wrap">Resources</p>
+          <p className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0] text-[72px] tracking-[-2.16px] w-full whitespace-pre-wrap">Resources</p>
         </div>
       </div>
 
       {/* Card Grid — Helpful Pages + Help Us Improve */}
-      <div className="bg-[#fdfbd4] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full" data-name="Card Grid Content List">
+      <div
+        className="bg-[#fdfbd4] dark:bg-[#2a2820] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full"
+        data-name="Card Grid Content List"
+      >
         {/* Helpful Pages */}
-        <div className="bg-white border border-[#ddddd8] border-solid rounded-[6px] p-[24px] w-full max-w-[858px]" data-name="Card">
-          <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[1.2] text-[#1e1e1e] text-[24px] tracking-[-0.48px] mb-[24px]">Helpful Pages</p>
+        <div
+          className="bg-white dark:bg-[#1a1a2e] border border-[#ddddd8] dark:border-[#4a5568] border-solid rounded-[6px] p-[24px] w-full max-w-[858px]"
+          data-name="Card"
+        >
+          <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[1.2] text-[#1e1e1e] dark:text-[#e2e8f0] text-[24px] tracking-[-0.48px] mb-[24px]">Helpful Pages</p>
           <div className="flex flex-col gap-[28px]">
             {HELPFUL_LINKS.map(({ name, href, description }) => (
               <a
@@ -56,7 +65,7 @@ export default function Resources() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] leading-[1.4] no-underline hover:text-[#1e1e1e] transition-colors block"
+                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] dark:text-[#a0aec0] leading-[1.4] no-underline hover:text-[#1e1e1e] dark:hover:text-[#e2e8f0] transition-colors block"
               >
                 <span className="underline decoration-solid">{name}</span>
                 <span>: {description}</span>
@@ -66,8 +75,11 @@ export default function Resources() {
         </div>
 
         {/* Help Us Improve */}
-        <div className="bg-white border border-[#ddddd8] border-solid rounded-[6px] p-[24px] w-full max-w-[858px]" data-name="Card">
-          <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[1.2] text-[#1e1e1e] text-[24px] tracking-[-0.48px] mb-[24px]">Help Us Improve</p>
+        <div
+          className="bg-white dark:bg-[#1a1a2e] border border-[#ddddd8] dark:border-[#4a5568] border-solid rounded-[6px] p-[24px] w-full max-w-[858px]"
+          data-name="Card"
+        >
+          <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[1.2] text-[#1e1e1e] dark:text-[#e2e8f0] text-[24px] tracking-[-0.48px] mb-[24px]">Help Us Improve</p>
           <div className="flex flex-col gap-[28px]">
             {SURVEY_LINKS.map(({ name, href, description }) => (
               <a
@@ -75,7 +87,7 @@ export default function Resources() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] leading-[1.4] no-underline hover:text-[#1e1e1e] transition-colors block"
+                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] dark:text-[#a0aec0] leading-[1.4] no-underline hover:text-[#1e1e1e] dark:hover:text-[#e2e8f0] transition-colors block"
               >
                 <span className="underline decoration-solid">{name}</span>
                 <span>: {description}</span>

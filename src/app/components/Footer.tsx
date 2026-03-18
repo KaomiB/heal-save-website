@@ -5,7 +5,7 @@ function XLogo() {
     <div className="h-[24px] relative shrink-0 w-[23.98px]" data-name="X Logo">
       <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.98 24">
         <g id="X Logo">
-          <path d={svgPaths.p16d01100} fill="var(--fill-0, #1E1E1E)" id="Icon" />
+          <path d={svgPaths.p16d01100} fill="currentColor" id="Icon" />
         </g>
       </svg>
     </div>
@@ -17,7 +17,7 @@ function LogoInstagram() {
     <div className="relative shrink-0 size-[24px]" data-name="Logo Instagram">
       <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g clipPath="url(#clip0_1_953)" id="Logo Instagram">
-          <path d={svgPaths.p3c382d72} fill="var(--fill-0, #1E1E1E)" id="Icon" />
+          <path d={svgPaths.p3c382d72} fill="currentColor" id="Icon" />
         </g>
         <defs>
           <clipPath id="clip0_1_953">
@@ -34,7 +34,7 @@ function LogoYouTube() {
     <div className="relative shrink-0 size-[24px]" data-name="Logo YouTube">
       <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g clipPath="url(#clip0_1_956)" id="Logo YouTube">
-          <path d={svgPaths.p13f17d00} fill="var(--fill-0, #1E1E1E)" id="Icon" />
+          <path d={svgPaths.p13f17d00} fill="currentColor" id="Icon" />
         </g>
         <defs>
           <clipPath id="clip0_1_956">
@@ -51,7 +51,7 @@ function LinkedIn() {
     <div className="relative shrink-0 size-[24px]" data-name="LinkedIn">
       <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g clipPath="url(#clip0_1_962)" id="LinkedIn">
-          <path d={svgPaths.p167f5280} fill="var(--fill-0, #1E1E1E)" id="Icon" />
+          <path d={svgPaths.p167f5280} fill="currentColor" id="Icon" />
         </g>
         <defs>
           <clipPath id="clip0_1_962">
@@ -65,16 +65,22 @@ function LinkedIn() {
 
 export function Footer() {
   return (
-    <div className="bg-[#ddfdfe] w-full relative" data-name="Footer">
+    <div className="bg-[#ddfdfe] dark:bg-[#1a2a2a] w-full relative" data-name="Footer">
       <div className="content-center flex flex-wrap gap-[16px] items-center justify-center overflow-clip py-[32px] px-[32px] relative rounded-[inherit] w-full">
-        <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-name="Social Links">
+        <div
+          className="content-stretch flex gap-[16px] items-center relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0]"
+          data-name="Social Links"
+        >
           <XLogo />
           <LogoInstagram />
           <LogoYouTube />
           <LinkedIn />
         </div>
       </div>
-      <div aria-hidden="true" className="absolute top-0 left-0 right-0 border-t border-[#d9d9d9] border-solid pointer-events-none" />
+      <div
+        aria-hidden="true"
+        className="absolute top-0 left-0 right-0 border-t border-[#d9d9d9] dark:border-[#4a5568] border-solid pointer-events-none"
+      />
     </div>
   );
 }
