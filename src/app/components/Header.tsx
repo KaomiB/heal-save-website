@@ -19,10 +19,10 @@ export function Header() {
   const isActive = (path: string) => location.pathname === path;
 
   const pill = (path: string) =>
-    `${isActive(path) ? 'bg-[#f5f5f5] dark:bg-[#3d4252]' : ''} content-stretch flex items-center justify-center p-[8px] relative rounded-[8px] shrink-0 cursor-pointer hover:bg-[#f5f5f5] dark:hover:bg-[#3d4252] transition-colors`;
+    `${isActive(path) ? 'bg-[#f5f5f5] dark:bg-[#0f1f24] dark:ring-1 dark:ring-teal-800/40' : ''} content-stretch flex items-center justify-center p-[8px] relative rounded-[8px] shrink-0 cursor-pointer hover:bg-[#f5f5f5] dark:hover:bg-[#152028] transition-colors`;
 
   return (
-    <div className="bg-[#e0e1e9] dark:bg-[#2d3242] w-full relative" data-name="Header">
+    <div className="bg-[#e0e1e9] dark:bg-[#0a1018] w-full relative" data-name="Header">
       <div className="content-center flex flex-wrap gap-[0px_24px] items-center overflow-clip p-[32px] relative rounded-[inherit] w-full">
         <Block />
         <div
@@ -54,7 +54,7 @@ export function Header() {
       </div>
       <div
         aria-hidden="true"
-        className="absolute bottom-0 left-0 right-0 border-b border-[#d9d9d9] dark:border-[#4a5568] border-solid pointer-events-none"
+        className="absolute bottom-0 left-0 right-0 border-b border-[#d9d9d9] dark:border-teal-950/30 border-solid pointer-events-none"
       />
     </div>
   );

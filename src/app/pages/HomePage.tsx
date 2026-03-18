@@ -13,7 +13,7 @@ function Image() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img
           alt=""
-          className="absolute h-[116%] left-[-0.1%] max-w-none top-[-7.94%] w-full dark:brightness-[0.72] dark:saturate-[0.65] dark:contrast-[1.08] transition-[filter] duration-300"
+          className="absolute h-[116%] left-[-0.1%] max-w-none top-[-7.94%] w-full dark:brightness-[0.58] dark:saturate-[0.48] dark:contrast-[1.1] dark:hue-rotate-[-6deg] transition-[filter] duration-300"
           src={imgImage}
         />
       </div>
@@ -24,7 +24,11 @@ function Image() {
 function Image1() {
   return (
     <div className="flex-[1_0_0] h-full min-h-px min-w-px relative" data-name="Image">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage1} />
+      <img
+        alt=""
+        className="absolute inset-0 max-w-none object-cover pointer-events-none size-full dark:brightness-[0.58] dark:saturate-[0.48] dark:contrast-[1.08] dark:hue-rotate-[-6deg] transition-[filter] duration-300"
+        src={imgImage1}
+      />
     </div>
   );
 }
@@ -57,15 +61,15 @@ function Body() {
       <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-name="Button Group">
         <Link
           to="/about"
-          className="bg-[#e3e3e3] dark:bg-[#3d4252] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] dark:hover:bg-[#4a5568] transition-colors"
+          className="bg-[#e3e3e3] dark:bg-[#0f1a1c] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] dark:hover:bg-[#15282c] transition-colors"
           data-name="Button"
         >
           <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip p-[12px] relative rounded-[inherit]">
-            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0] text-[16px]">About Us</p>
+            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] dark:text-[#a7f3d0] text-[16px]">About Us</p>
           </div>
           <div
             aria-hidden="true"
-            className="absolute border border-[#767676] dark:border-[#718096] border-solid inset-0 pointer-events-none rounded-[8px]"
+            className="absolute border border-[#767676] dark:border-teal-800/45 border-solid inset-0 pointer-events-none rounded-[8px]"
           />
         </Link>
       </div>
@@ -76,7 +80,11 @@ function Body() {
 function Image3() {
   return (
     <div className="min-w-[160px] relative shrink-0 size-[160px]" data-name="Image">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage3} />
+      <img
+        alt=""
+        className="absolute inset-0 max-w-none object-cover pointer-events-none size-full dark:brightness-[0.78] dark:saturate-[0.65] dark:contrast-[1.06] transition-[filter] duration-300"
+        src={imgImage3}
+      />
     </div>
   );
 }
@@ -97,15 +105,15 @@ function Body1() {
       <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-name="Button Group">
         <Link
           to="/savvy"
-          className="bg-[#e3e3e3] dark:bg-[#3d4252] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] dark:hover:bg-[#4a5568] transition-colors"
+          className="bg-[#e3e3e3] dark:bg-[#0f1a1c] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] dark:hover:bg-[#15282c] transition-colors"
           data-name="Button"
         >
           <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip p-[12px] relative rounded-[inherit]">
-            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0] text-[16px] text-left">Savvy Chatbot</p>
+            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] dark:text-[#a7f3d0] text-[16px] text-left">Savvy Chatbot</p>
           </div>
           <div
             aria-hidden="true"
-            className="absolute border border-[#767676] dark:border-[#718096] border-solid inset-0 pointer-events-none rounded-[8px]"
+            className="absolute border border-[#767676] dark:border-teal-800/45 border-solid inset-0 pointer-events-none rounded-[8px]"
           />
         </Link>
       </div>
@@ -141,15 +149,15 @@ function Body2() {
       <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-name="Button Group">
         <Link
           to="/resources"
-          className="bg-[#e3e3e3] dark:bg-[#3d4252] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] dark:hover:bg-[#4a5568] transition-colors"
+          className="bg-[#e3e3e3] dark:bg-[#0f1a1c] cursor-pointer relative rounded-[8px] shrink-0 no-underline hover:bg-[#d9d9d9] dark:hover:bg-[#15282c] transition-colors"
           data-name="Button"
         >
           <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip p-[12px] relative rounded-[inherit]">
-            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0] text-[16px]">Resources</p>
+            <p className="font-['Inter:Regular',sans-serif] font-normal leading-none not-italic relative shrink-0 text-[#1e1e1e] dark:text-[#a7f3d0] text-[16px]">Resources</p>
           </div>
           <div
             aria-hidden="true"
-            className="absolute border border-[#767676] dark:border-[#718096] border-solid inset-0 pointer-events-none rounded-[8px]"
+            className="absolute border border-[#767676] dark:border-teal-800/45 border-solid inset-0 pointer-events-none rounded-[8px]"
           />
         </Link>
       </div>
@@ -160,30 +168,30 @@ function Body2() {
 function Cards() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-name="Cards">
-      <div className="bg-white dark:bg-[#1a1a2e] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
+      <div className="bg-white dark:bg-[#111a22] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
         <div
           aria-hidden="true"
-          className="absolute border border-[#d9d9d9] dark:border-[#4a5568] border-solid inset-0 pointer-events-none rounded-[8px]"
+          className="absolute border border-[#d9d9d9] dark:border-teal-900/35 border-solid inset-0 pointer-events-none rounded-[8px]"
         />
         <div className="content-start flex flex-wrap gap-[24px] items-start min-w-[inherit] p-[24px] relative w-full">
           <Image2 />
           <Body />
         </div>
       </div>
-      <div className="bg-white dark:bg-[#1a1a2e] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
+      <div className="bg-white dark:bg-[#111a22] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
         <div
           aria-hidden="true"
-          className="absolute border border-[#d9d9d9] dark:border-[#4a5568] border-solid inset-0 pointer-events-none rounded-[8px]"
+          className="absolute border border-[#d9d9d9] dark:border-teal-900/35 border-solid inset-0 pointer-events-none rounded-[8px]"
         />
         <div className="content-start flex flex-wrap gap-[24px] items-start min-w-[inherit] p-[24px] relative w-full">
           <Image3 />
           <Body1 />
         </div>
       </div>
-      <div className="bg-white dark:bg-[#1a1a2e] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
+      <div className="bg-white dark:bg-[#111a22] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
         <div
           aria-hidden="true"
-          className="absolute border border-[#d9d9d9] dark:border-[#4a5568] border-solid inset-0 pointer-events-none rounded-[8px]"
+          className="absolute border border-[#d9d9d9] dark:border-teal-900/35 border-solid inset-0 pointer-events-none rounded-[8px]"
         />
         <div className="content-start flex flex-wrap gap-[24px] items-start min-w-[inherit] p-[24px] relative w-full">
           <Image4 />
@@ -196,12 +204,12 @@ function Cards() {
 
 export default function HomePage() {
   return (
-    <div className="bg-white dark:bg-[#0f0f1a] min-h-screen flex flex-col" data-name="Home Page">
+    <div className="bg-white dark:bg-[#080c10] min-h-screen flex flex-col" data-name="Home Page">
       <Header />
       
       {/* Hero Section — updated from Figma draft (Informatics-172) */}
       <div
-        className="bg-[#ddfdfe] dark:bg-[#1a2a2a] content-stretch flex flex-col items-center px-[64px] py-[160px] w-full"
+        className="bg-[#ddfdfe] dark:bg-[#0a1520] content-stretch flex flex-col items-center px-[64px] py-[160px] w-full dark:shadow-[inset_0_-1px_0_0_rgba(45,212,191,0.08)]"
         data-name="Hero Basic"
       >
         <div className="content-stretch flex flex-col gap-[8px] items-center not-italic relative shrink-0 text-center" data-name="Text Content Title">
@@ -213,7 +221,7 @@ export default function HomePage() {
         <div className="flex flex-col sm:flex-row gap-[16px] items-center justify-center mt-[24px] w-full max-w-[614px]" data-name="Hero CTA">
           <Link
             to="/savvy"
-            className="bg-[#e5c1e0] dark:bg-[#8b5a82] text-[#1e1e1e] dark:text-[#f7fafc] font-medium text-[20px] leading-[1.2] px-[39px] py-[20px] rounded-[100px] no-underline hover:bg-[#ddb3d8] dark:hover:bg-[#9d6a92] transition-colors shrink-0"
+            className="bg-[#e5c1e0] text-[#1e1e1e] font-medium text-[20px] leading-[1.2] px-[39px] py-[20px] rounded-[100px] no-underline hover:bg-[#ddb3d8] transition-colors shrink-0 dark:bg-[#0d9488] dark:text-[#ecfeff] dark:hover:bg-[#14b8a6] dark:shadow-[0_0_28px_rgba(13,148,136,0.35)]"
             data-name="Savvy CTA Button"
           >
             Savvy
@@ -226,7 +234,7 @@ export default function HomePage() {
 
       {/* Panel Image Double */}
       <div
-        className="bg-[#e7cee3] dark:bg-[#2a1f28] content-stretch flex gap-[48px] h-[478px] items-start opacity-80 dark:opacity-100 p-[64px] w-full"
+        className="bg-[#e7cee3] dark:bg-[#05080c] content-stretch flex gap-[48px] h-[478px] items-start opacity-80 dark:opacity-100 p-[64px] w-full dark:ring-1 dark:ring-inset dark:ring-teal-950/40"
         data-name="Panel Image Double"
       >
         <Image />
@@ -235,7 +243,7 @@ export default function HomePage() {
 
       {/* Card Grid Content List */}
       <div
-        className="bg-[#fdfbd4] dark:bg-[#2a2820] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full"
+        className="bg-[#fdfbd4] dark:bg-[#0c1418] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full"
         data-name="Card Grid Content List"
       >
         <div className="content-stretch flex flex-col gap-[8px] items-start not-italic relative shrink-0" data-name="Text Content Heading">

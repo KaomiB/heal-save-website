@@ -65,7 +65,7 @@ function LinkedIn() {
 
 export function Footer() {
   return (
-    <div className="bg-[#ddfdfe] dark:bg-[#1a2a2a] w-full relative" data-name="Footer">
+    <div className="bg-[#ddfdfe] dark:bg-[#0a1520] dark:border-t dark:border-teal-950/25 w-full relative" data-name="Footer">
       <div className="content-center flex flex-wrap gap-[16px] items-center justify-center overflow-clip py-[32px] px-[32px] relative rounded-[inherit] w-full">
         <div
           className="content-stretch flex gap-[16px] items-center relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0]"

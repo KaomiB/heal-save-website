@@ -44,19 +44,19 @@ function Body1() {
 function Cards() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-name="Cards">
-      <div className="bg-white dark:bg-[#1a1a2e] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
+      <div className="bg-white dark:bg-[#111a22] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
         <div
           aria-hidden="true"
-          className="absolute border border-[#d9d9d9] dark:border-[#4a5568] border-solid inset-0 pointer-events-none rounded-[8px]"
+          className="absolute border border-[#d9d9d9] dark:border-teal-900/35 border-solid inset-0 pointer-events-none rounded-[8px]"
         />
         <div className="content-start flex flex-wrap gap-[24px] items-start min-w-[inherit] p-[24px] relative w-full">
           <Body />
         </div>
       </div>
-      <div className="bg-white dark:bg-[#1a1a2e] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
+      <div className="bg-white dark:bg-[#111a22] min-w-[240px] relative rounded-[8px] shrink-0 w-full" data-name="Card">
         <div
           aria-hidden="true"
-          className="absolute border border-[#d9d9d9] dark:border-[#4a5568] border-solid inset-0 pointer-events-none rounded-[8px]"
+          className="absolute border border-[#d9d9d9] dark:border-teal-900/35 border-solid inset-0 pointer-events-none rounded-[8px]"
         />
         <div className="content-start flex flex-wrap gap-[24px] items-start min-w-[inherit] p-[24px] relative w-full">
           <Body1 />
@@ -74,7 +74,7 @@ export default function AboutUs() {
       {/* Hero Basic */}
       <div className="content-stretch flex flex-col items-center px-[64px] py-[160px] w-full relative" data-name="Hero Basic">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-          <div className="absolute bg-[#ddfdfe] dark:bg-[#1a2a2a] inset-0" />
+          <div className="absolute bg-[#ddfdfe] dark:bg-[#0a1520] inset-0" />
           <img
             alt=""
             className="absolute max-w-none object-cover opacity-20 dark:opacity-[0.12] size-full dark:brightness-[0.5] dark:saturate-[0.7] dark:contrast-[1.1] transition-[filter,opacity] duration-300"
@@ -91,7 +91,7 @@ export default function AboutUs() {
 
       {/* Card Grid Content List */}
       <div
-        className="bg-[#fdfbd4] dark:bg-[#2a2820] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full"
+        className="bg-[#fdfbd4] dark:bg-[#0c1418] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full"
         data-name="Card Grid Content List"
       >
         <Cards />

@@ -34,12 +34,12 @@ const SURVEY_LINKS = [
 
 export default function Resources() {
   return (
-    <div className="bg-white dark:bg-[#0f0f1a] min-h-screen flex flex-col" data-name="Resources">
+    <div className="bg-white dark:bg-[#080c10] min-h-screen flex flex-col" data-name="Resources">
       <Header />
 
       {/* Hero — from Figma draft (node 439:260) */}
       <div
-        className="bg-[#ddfdfe] dark:bg-[#1a2a2a] content-stretch flex flex-col items-center px-[64px] py-[160px] w-full"
+        className="bg-[#ddfdfe] dark:bg-[#0a1520] content-stretch flex flex-col items-center px-[64px] py-[160px] w-full"
         data-name="Hero Basic"
       >
         <div className="content-stretch flex flex-col gap-[8px] items-center not-italic relative shrink-0 text-center" data-name="Text Content Title">
@@ -49,12 +49,12 @@ export default function Resources() {
 
       {/* Card Grid — Helpful Pages + Help Us Improve */}
       <div
-        className="bg-[#fdfbd4] dark:bg-[#2a2820] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full"
+        className="bg-[#fdfbd4] dark:bg-[#0c1418] content-stretch flex flex-col gap-[48px] items-start p-[64px] w-full"
         data-name="Card Grid Content List"
       >
         {/* Helpful Pages */}
         <div
-          className="bg-white dark:bg-[#1a1a2e] border border-[#ddddd8] dark:border-[#4a5568] border-solid rounded-[6px] p-[24px] w-full max-w-[858px]"
+          className="bg-white dark:bg-[#111a22] border border-[#ddddd8] dark:border-teal-900/35 border-solid rounded-[6px] p-[24px] w-full max-w-[858px]"
           data-name="Card"
         >
           <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[1.2] text-[#1e1e1e] dark:text-[#e2e8f0] text-[24px] tracking-[-0.48px] mb-[24px]">Helpful Pages</p>
@@ -65,7 +65,7 @@ export default function Resources() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] dark:text-[#a0aec0] leading-[1.4] no-underline hover:text-[#1e1e1e] dark:hover:text-[#e2e8f0] transition-colors block"
+                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] dark:text-[#94a3b8] leading-[1.4] no-underline hover:text-[#1e1e1e] dark:hover:text-[#99f6e4] transition-colors block"
               >
                 <span className="underline decoration-solid">{name}</span>
                 <span>: {description}</span>
@@ -76,7 +76,7 @@ export default function Resources() {
 
         {/* Help Us Improve */}
         <div
-          className="bg-white dark:bg-[#1a1a2e] border border-[#ddddd8] dark:border-[#4a5568] border-solid rounded-[6px] p-[24px] w-full max-w-[858px]"
+          className="bg-white dark:bg-[#111a22] border border-[#ddddd8] dark:border-teal-900/35 border-solid rounded-[6px] p-[24px] w-full max-w-[858px]"
           data-name="Card"
         >
           <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[1.2] text-[#1e1e1e] dark:text-[#e2e8f0] text-[24px] tracking-[-0.48px] mb-[24px]">Help Us Improve</p>
@@ -87,7 +87,7 @@ export default function Resources() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] dark:text-[#a0aec0] leading-[1.4] no-underline hover:text-[#1e1e1e] dark:hover:text-[#e2e8f0] transition-colors block"
+                className="font-['Inter:Regular',sans-serif] font-normal text-[20px] text-[#757575] dark:text-[#94a3b8] leading-[1.4] no-underline hover:text-[#1e1e1e] dark:hover:text-[#99f6e4] transition-colors block"
               >
                 <span className="underline decoration-solid">{name}</span>
                 <span>: {description}</span>
