@@ -14,7 +14,7 @@ export default function Savvy() {
   }, [resolvedTheme]);
 
   return (
-    <div className="bg-white dark:bg-[#09090b] min-h-screen flex flex-col" data-name="Savvy">
+    <div className="bg-white dark:bg-[#080c10] min-h-screen flex flex-col" data-name="Savvy">
       <Header />
 
       <div className="flex-1 min-h-0 w-full flex flex-col" data-name="Chatbot Section">
