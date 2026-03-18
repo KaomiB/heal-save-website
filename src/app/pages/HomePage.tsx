@@ -11,7 +11,11 @@ function Image() {
   return (
     <div className="flex-[1_0_0] h-full min-h-px min-w-px relative" data-name="Image">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[116%] left-[-0.1%] max-w-none top-[-7.94%] w-full" src={imgImage} />
+        <img
+          alt=""
+          className="absolute h-[116%] left-[-0.1%] max-w-none top-[-7.94%] w-full dark:brightness-[0.72] dark:saturate-[0.65] dark:contrast-[1.08] transition-[filter] duration-300"
+          src={imgImage}
+        />
       </div>
     </div>
   );
@@ -28,7 +32,11 @@ function Image1() {
 function Image2() {
   return (
     <div className="min-w-[160px] relative shrink-0 size-[160px]" data-name="Image">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage2} />
+      <img
+        alt=""
+        className="absolute inset-0 max-w-none object-cover pointer-events-none size-full dark:brightness-[0.8] dark:saturate-[0.72] dark:contrast-[1.05] transition-[filter] duration-300"
+        src={imgImage2}
+      />
     </div>
   );
 }
@@ -108,7 +116,11 @@ function Body1() {
 function Image4() {
   return (
     <div className="min-w-[160px] relative shrink-0 size-[160px]" data-name="Image">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage4} />
+      <img
+        alt=""
+        className="absolute inset-0 max-w-none object-cover pointer-events-none size-full dark:brightness-[0.8] dark:saturate-[0.72] dark:contrast-[1.05] transition-[filter] duration-300"
+        src={imgImage4}
+      />
     </div>
   );
 }

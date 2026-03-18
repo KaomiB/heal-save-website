@@ -75,7 +75,11 @@ export default function AboutUs() {
       <div className="content-stretch flex flex-col items-center px-[64px] py-[160px] w-full relative" data-name="Hero Basic">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
           <div className="absolute bg-[#ddfdfe] dark:bg-[#1a2a2a] inset-0" />
-          <img alt="" className="absolute max-w-none object-cover opacity-20 size-full" src={imgHeroBasic} />
+          <img
+            alt=""
+            className="absolute max-w-none object-cover opacity-20 dark:opacity-[0.12] size-full dark:brightness-[0.5] dark:saturate-[0.7] dark:contrast-[1.1] transition-[filter,opacity] duration-300"
+            src={imgHeroBasic}
+          />
         </div>
         <div className="content-stretch flex flex-col gap-[8px] items-center not-italic relative shrink-0 text-center z-10" data-name="Text Content Title">
           <p className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] relative shrink-0 text-[#1e1e1e] dark:text-[#e2e8f0] text-[72px] tracking-[-2.16px] w-full whitespace-pre-wrap">About Us</p>
