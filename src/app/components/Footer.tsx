@@ -12,10 +12,11 @@ function RepoLink({ href, label }: { href: string; label: string }) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-[10px] rounded-full border border-[#767676]/40 px-[14px] py-[8px] text-[#1e1e1e] dark:text-[#e2e8f0] no-underline transition-colors hover:bg-white/50 dark:hover:bg-[#143029]"
+      aria-label={label}
+      title={label}
+      className="inline-flex items-center justify-center rounded-full border border-[#767676]/40 p-[10px] text-[#1e1e1e] dark:text-[#e2e8f0] no-underline transition-colors hover:bg-white/50 dark:hover:bg-[#143029]"
     >
       <GitHubIcon />
-      <span className="font-['Inter:Medium',sans-serif] text-[14px] leading-none">{label}</span>
     </a>
   );
 }
